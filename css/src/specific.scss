@@ -1,0 +1,48 @@
+.specific {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.sicon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 1650px;
+    text-align: center;
+    
+    
+}
+.des ,.flo , .visa {
+    display: flex;
+    justify-content: space-between;
+    border:5px solid #E27866; 
+    border-radius: 20px;
+    background-color: #E27866;
+}
+.stext {display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 1580px;
+    text-align: left;
+    font-size: 20px;
+    
+   
+}
+ .spara {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1250px;
+    text-align: center;
+    font-size: 14px;
+    color: #86878B;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+    }

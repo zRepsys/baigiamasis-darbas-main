@@ -1,0 +1,45 @@
+.feat {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+    
+.logo {
+    margin-top: 150px;
+}
+}
+.ftext {
+    margin: 20px 20px;
+    width: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: left;
+    h2 {
+        font: normal normal 600 30px/43px Montserrat;
+    }
+    h4 {
+        font: normal normal normal 14px/20px Montserrat;
+    }
+}
+
+.eye {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.comment {
+    display: flex;
+   flex-direction: column;
+   margin-left: 50px;
+   margin-top: -30px;
+  
+}
+.icon {
+    
+    
+    border-radius:20px ;
+    background-color:#E27866 ;
+}

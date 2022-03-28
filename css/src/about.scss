@@ -1,0 +1,88 @@
+.about {
+    position: relative;
+    padding: 115px 0;
+    background-color: pink;
+    background-image: url("../images/about-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(270deg, #6696E2 0%, #E27866 100%);
+        opacity: 0.42;
+    }
+
+    .container {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .tab-navigation {
+        ul {
+            list-style: none;
+            padding: 0;
+            
+
+            li {
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100px;
+                height: 100px;
+                background-color: #A37169;
+                box-shadow: 0px 3px 6px #00000029;
+                cursor: pointer;
+                transition: 0.3s ease-in-out;
+                
+
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+
+                &.active {
+                    background-color: #E27866;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        display: none;
+        animation: tab-reveal 0.5s forwards;
+
+        &.active {
+            display: block;
+        }
+    }
+}
+.tabtext {
+
+    display: flex;
+    
+    flex-direction: column;
+    padding : 50px;
+}
+h1 {
+    color:white;
+    font-size: 36px;
+    text-align: left;
+}
+h3 {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+.expic{
+    display: grid;
+    justify-content: flex-end;
+    
+   
+}
